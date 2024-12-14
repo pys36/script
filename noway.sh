@@ -7,6 +7,6 @@ git clone https://github.com/pys36/local_manifests.git .repo/local_manifests
 export TZ=Asia/Kuching
 export BUILD_USERNAME=pangys
 export BUILD_HOSTNAME=crave
-export BUILD_BROKEN_MISSING_REQUIRED_MODULES=1
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES = true
 lunch lineage_earth-ap2a-user
 mka everest -j$(nproc --all)
