@@ -8,5 +8,5 @@ export TZ=Asia/Kuching
 export BUILD_USERNAME=pangys
 export BUILD_HOSTNAME=crave
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
-lunch lineage_earth-ap2a-user
+lunch lineage_earth-user
 mka everest -j$(nproc --all)
