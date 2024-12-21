@@ -8,5 +8,5 @@ export BUILD_USERNAME=pangys
 export BUILD_HOSTNAME=crave
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 . build/envsetup.sh
-lunch cipher_earth-ap1a-userdebug
+lunch cipher_earth-ap2a-userdebug
 mka bacon -j$(nproc --all)
